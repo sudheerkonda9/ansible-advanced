@@ -1,5 +1,5 @@
-- name: demo is on Ansible configuration
+- name: demooooooo is on Ansible configuration
   hosts: centos
   tasks:
-  - name: Print a message
-    ansible.builin.command: echo Hello from Ansible server > /tmp/hello.txt
+  - name: print a message
+    ansible.builtin.command: echo Hello from Ansible server > /tmp/hello.txt
